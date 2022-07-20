@@ -63,7 +63,7 @@ class MainActivity : AppCompatActivity() {
 
         val constraints = Constraints.Builder()
         // Bisa berjalan jika hp dalam keadaan chargedan terhubung internet
-            .setRequiredNetworkType(NetworkType.CONNECTED)
+//            .setRequiredNetworkType(NetworkType.CONNECTED)
             .setRequiresCharging(true)
             .build()
 
